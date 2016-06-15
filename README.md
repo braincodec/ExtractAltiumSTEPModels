@@ -1,7 +1,7 @@
 # ExtractAltiumSTEPModels
 This is a Proof of Concept (PoC) on how we can extract the 3D components models from an Altium PCB Project file (.PcbDoc file)
 
-The .PcbDoc is not more than a ZIP file we can extract normally with another common zlib file. After that, you can find many folders and one on this is the MODELS folder where we can found the STEP models but in a binary format.
+The .PcbDoc is not more than a ZIP file we can extract normally how another common zlib file. After that, you can find many folders and one off this is the MODELS folder where we can found the STEP models but in a binary format.
 
 With this little PoC python script, you can extract that binary data in a clear text format (ASCII STEP file) to import for example in FreeCAD.
 
